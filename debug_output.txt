@@ -1,0 +1,18 @@
+Output:
+مرحبا السلام عليكم معك من شركة الاتصالات جائزة نقدية قدره خمسمائة ريال عماني نعم فقط نحتاج رقم البطاقة البولسكية عشان الدم بلغ صورا لحسابك البنكي هو الرقم أيوه أحسنت
+
+
+Error:
+/Users/mariasaif/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+LOG (VoskAPI:ReadDataFiles():model.cc:213) Decoding params beam=13 max-active=7000 lattice-beam=6
+LOG (VoskAPI:ReadDataFiles():model.cc:216) Silence phones 1:2:3:4:5
+LOG (VoskAPI:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 1 orphan nodes.
+LOG (VoskAPI:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 2 orphan components.
+LOG (VoskAPI:Collapse():nnet-utils.cc:1488) Added 1 components, removed 2
+LOG (VoskAPI:ReadDataFiles():model.cc:248) Loading i-vector extractor from ../vosk_env/vosk-model-ar-mgb2-0.4/ivector/final.ie
+LOG (VoskAPI:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (VoskAPI:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (VoskAPI:ReadDataFiles():model.cc:279) Loading HCLG from ../vosk_env/vosk-model-ar-mgb2-0.4/graph/HCLG.fst
+LOG (VoskAPI:ReadDataFiles():model.cc:294) Loading words from ../vosk_env/vosk-model-ar-mgb2-0.4/graph/words.txt
+LOG (VoskAPI:ReadDataFiles():model.cc:303) Loading winfo ../vosk_env/vosk-model-ar-mgb2-0.4/graph/phones/word_boundary.int

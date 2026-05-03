@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Upload | سَرب</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Sora', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+<header class="bg-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <img src="images/logo.svg" alt="سَرب Logo" class="w-10 h-10" />
+      <span class="text-xl font-bold text-gray-800">سَرب</span>
+    </div>
+    <nav class="space-x-4 text-gray-700 font-medium">
+      <a href="index.php" class="hover:text-blue-600">Home</a>
+      <a href="about.html" class="hover:text-blue-600">About</a>
+      <a href="contact.html" class="hover:text-blue-600">Contact</a>
+      <a href="dashboard.php" class="hover:text-blue-600">Dashboard</a>
+      <a href="upload.html" class="text-blue-700 font-semibold border-b-2 border-blue-600">Upload</a>
+      <a href="faqs.php" class="hover:text-blue-600">FAQs</a>
+    </nav>
+  </div>
+</header>
+
+<main class="flex items-center justify-center min-h-screen px-4">
+  <div class="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full text-center">
+
+    <img src="images/upload_icon.png"
+         alt="Upload Icon"
+         class="mx-auto mb-6 w-28 h-28 object-contain rounded-xl shadow"/>
+
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">
+      Submit a Voice Recording for Analysis
+    </h2>
+
+    <form action="upload_process.php" method="POST" enctype="multipart/form-data" class="space-y-4">
+      <input type="file" name="audioFile"
+             accept=".mp3,.wav"
+             required
+             class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"/>
+
+      <button type="submit"
+              class="w-full bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition font-semibold">
+        Analyze
+      </button>
+    </form>
+
+  </div>
+</main>
+
+</body>
+</html>
