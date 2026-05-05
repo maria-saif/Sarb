@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Sarb logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#415A77"/>
+      <stop offset="100%" stop-color="#778DA9"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
+  <circle cx="64" cy="64" r="32" fill="#E7ECEF" opacity="0.15"/>
+  <path d="M34 67c7-3 13-4 18-4 9 0 16 4 23 9 6 4 11 7 17 7 3 0 6-1 9-2" fill="none" stroke="#E7ECEF" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="45" cy="55" r="5" fill="#E7ECEF"/>
+  <circle cx="63" cy="51" r="4" fill="#E7ECEF" opacity="0.9"/>
+  <circle cx="79" cy="53" r="3" fill="#E7ECEF" opacity="0.8"/>
+</svg>
